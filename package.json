@@ -1,35 +1,96 @@
 {
-  "name": "ha-ssdb-cli",
-  "version": "1.0.0",
+  "_args": [
+    [
+      {
+        "raw": "ha-ssdb-cli",
+        "scope": null,
+        "escapedName": "ha-ssdb-cli",
+        "name": "ha-ssdb-cli",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/charming/work/code_prj/osp/tmp"
+    ]
+  ],
+  "_from": "ha-ssdb-cli@latest",
+  "_id": "ha-ssdb-cli@1.0.0",
+  "_inCache": true,
+  "_location": "/ha-ssdb-cli",
+  "_nodeVersion": "6.9.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/ha-ssdb-cli-1.0.0.tgz_1492003072513_0.6352245812304318"
+  },
+  "_npmUser": {
+    "name": "caiming1987612",
+    "email": "caiming1987612@gmail.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ha-ssdb-cli",
+    "scope": null,
+    "escapedName": "ha-ssdb-cli",
+    "name": "ha-ssdb-cli",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/ha-ssdb-cli/-/ha-ssdb-cli-1.0.0.tgz",
+  "_shasum": "9587ce9b7f4b5bfe5c701449d47ee56ea2ba39ab",
+  "_shrinkwrap": null,
+  "_spec": "ha-ssdb-cli",
+  "_where": "/Users/charming/work/code_prj/osp/tmp",
+  "author": {
+    "name": "charming"
+  },
+  "bugs": {
+    "url": "https://github.com/charmingcode/ha-ssdb-cli/issues"
+  },
+  "dependencies": {
+    "create-error.js": "0.0.5",
+    "promisify.js": "0.0.1"
+  },
   "description": "highavailable ssdb client, fast-failover",
-  "main": "lib",
+  "devDependencies": {
+    "co": "^4.6.0",
+    "co-wait": "0.0.0"
+  },
   "directories": {
     "test": "test"
   },
-  "scripts": {
-    "test": "node test/ha_test.js && exit 1"
+  "dist": {
+    "shasum": "9587ce9b7f4b5bfe5c701449d47ee56ea2ba39ab",
+    "tarball": "https://registry.npmjs.org/ha-ssdb-cli/-/ha-ssdb-cli-1.0.0.tgz"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/charmingcode/ha-ssdb-cli.git"
-  },
+  "gitHead": "e65152a4ef985fbed4d42ae5554283cde840850d",
+  "homepage": "https://github.com/charmingcode/ha-ssdb-cli#readme",
   "keywords": [
     "ha",
     "ssdb",
     "client"
   ],
-  "author": "charming",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/charmingcode/ha-ssdb-cli/issues"
+  "main": "lib",
+  "maintainers": [
+    {
+      "name": "caiming1987612",
+      "email": "caiming1987612@gmail.com"
+    }
+  ],
+  "name": "ha-ssdb-cli",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charmingcode/ha-ssdb-cli.git"
   },
-  "homepage": "https://github.com/charmingcode/ha-ssdb-cli#readme",
-  "dependencies": {
-    "create-error": "^0.3.1",
-    "promisify.js": "0.0.1"
+  "scripts": {
+    "test": "node test/ha-test.js && exit 1"
   },
-  "devDependencies": {
-    "co": "^4.6.0",
-    "co-wait": "0.0.0"
-  }
+  "version": "1.0.0"
 }

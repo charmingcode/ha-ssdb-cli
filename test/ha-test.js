@@ -1,6 +1,6 @@
 var co = require('co');
 var wait = require('co-wait');
-var hassdb = require('../lib/ha-ssdb');
+var hassdb = require('../lib');
 
 options = [
     {

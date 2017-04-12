@@ -1,0 +1,35 @@
+{
+  "name": "ha-ssdb-cli",
+  "version": "1.0.0",
+  "description": "highavailable ssdb client, fast-failover",
+  "main": "lib",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/ha_test.js && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charmingcode/ha-ssdb-cli.git"
+  },
+  "keywords": [
+    "ha",
+    "ssdb",
+    "client"
+  ],
+  "author": "charming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charmingcode/ha-ssdb-cli/issues"
+  },
+  "homepage": "https://github.com/charmingcode/ha-ssdb-cli#readme",
+  "dependencies": {
+    "create-error": "^0.3.1",
+    "promisify.js": "0.0.1"
+  },
+  "devDependencies": {
+    "co": "^4.6.0",
+    "co-wait": "0.0.0"
+  }
+}
